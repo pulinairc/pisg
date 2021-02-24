@@ -1,6 +1,6 @@
-This is a fork of pisg (pisg.sourceforge.net) that uses a minimal bootstrap layout and theme.
+### Pulina IRC pisg + config + theme
 
-Preview: https://opirc.d1g1t.net/
+This is a fork of pisg (pisg.sourceforge.net) that uses a minimal layout and theme.
 
 ## Install
 
