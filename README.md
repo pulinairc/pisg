@@ -2,7 +2,7 @@
 
 This is a fork of pisg (pisg.sourceforge.net) that uses a minimal layout and theme.
 
-![Screenshot](https://i.imgur.com/gMS6vR2.png "Screenshot")
+![Screenshot](https://i.imgur.com/6AN7gMm.png "Screenshot")
 
 ## Install
 
