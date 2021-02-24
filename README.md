@@ -1,4 +1,4 @@
-### Pulina IRC pisg + config + theme
+# Pulina IRC pisg + config + theme
 
 This is a fork of pisg (pisg.sourceforge.net) that uses a minimal layout and theme.
 
