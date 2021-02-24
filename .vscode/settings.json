@@ -1,0 +1,42 @@
+{
+  "[css]": {
+    "editor.defaultFormatter": "ronilaukkarinen.vscode-stylefmt",
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "on",
+    "editor.wordWrap": "bounded",
+    "files.trimTrailingWhitespace": true
+  },  
+  "[scss]": {
+    "editor.defaultFormatter": "ronilaukkarinen.vscode-stylefmt",
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "on",
+    "editor.wordWrap": "bounded",
+    "files.trimTrailingWhitespace": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "Wscats.qf",
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "off",
+    "editor.wordWrap": "bounded",
+    "files.trimTrailingWhitespace": false
+  },
+  "phpSniffer.autoDetect": true,
+  "[php]": {
+    "editor.defaultFormatter": "Wscats.qf",
+    "editor.formatOnSave": false
+  },
+  "[html]": {
+    "editor.defaultFormatter": "Wscats.qf",
+    "editor.formatOnSave": false
+  },
+  "[vue]": {
+    "editor.formatOnSave": false
+  },
+  "editor.wordWrap": "on",
+  "workbench.startupEditor": "newUntitledFile",
+  "search.exclude": {
+    "**/*.bundle.js": true,
+    "**/*.css": false,
+    "**/*all.js": true
+  },
+}

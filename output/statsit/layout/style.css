@@ -1,66 +1,243 @@
+/* stylelint-disable font-family-name-quotes, declaration-no-important, selector-max-combinators, selector-max-compound-selectors, selector-max-specificity, property-disallowed-list, no-descending-specificity */
+/* Fonts */
+@font-face {
+  font-display: auto;
+  font-family: "Alliance No. 1";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/allianceno1-regular.eot");
+  src: url("../fonts/allianceno1-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/allianceno1-regular.woff") format("woff"), url("../fonts/allianceno1-regular.woff2") format("woff2"), url("../fonts/allianceno1-regular.ttf") format("truetype"), url("../fonts/allianceno1-regular.svg#Alliance No. 1") format("svg");
+}
+
+@font-face {
+  font-display: auto;
+  font-family: "Alliance No. 1";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/allianceno1-italic.eot");
+  src: url("../fonts/allianceno1-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/allianceno1-italic.woff") format("woff"), url("../fonts/allianceno1-italic.woff2") format("woff2"), url("../fonts/allianceno1-italic.ttf") format("truetype"), url("../fonts/allianceno1-italic.svg#Alliance No. 1") format("svg");
+}
+
+@font-face {
+  font-display: auto;
+  font-family: "Alliance No. 1";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/allianceno1-semibold.eot");
+  src: url("../fonts/allianceno1-semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/allianceno1-semibold.woff") format("woff"), url("../fonts/allianceno1-semibold.woff2") format("woff2"), url("../fonts/allianceno1-semibold.ttf") format("truetype"), url("../fonts/allianceno1-semibold.svg#Alliance No. 1") format("svg");
+}
+
+@font-face {
+  font-display: auto;
+  font-family: "Alliance No. 1";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/allianceno1-bold.eot");
+  src: url("../fonts/allianceno1-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/allianceno1-bold.woff") format("woff"), url("../fonts/allianceno1-bold.woff2") format("woff2"), url("../fonts/allianceno1-bold.ttf") format("truetype"), url("../fonts/allianceno1-bold.svg#Alliance No. 1") format("svg");
+}
+
+@font-face {
+  font-display: auto;
+  font-family: "Alliance No. 1";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/allianceno1-extrabold.eot");
+  src: url("../fonts/allianceno1-extrabold.eot?#iefix") format("embedded-opentype"), url("../fonts/allianceno1-extrabold.woff") format("woff"), url("../fonts/allianceno1-extrabold.woff2") format("woff2"), url("../fonts/allianceno1-extrabold.ttf") format("truetype"), url("../fonts/allianceno1-extrabold.svg#Alliance No. 1") format("svg");
+}
+
+@font-face {
+  font-display: auto;
+  font-family: "Alliance No. 1";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/allianceno1-black.eot");
+  src: url("../fonts/allianceno1-black.eot?#iefix") format("embedded-opentype"), url("../fonts/allianceno1-black.woff") format("woff"), url("../fonts/allianceno1-black.woff2") format("woff2"), url("../fonts/allianceno1-black.ttf") format("truetype"), url("../fonts/allianceno1-black.svg#Alliance No. 1") format("svg");
+}
+
+@font-face {
+  font-display: auto;
+  font-family: "SF Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/sfmono-regular.eot");
+  src: url("../fonts/sfmono-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/sfmono-regular.woff") format("woff"), url("../fonts/sfmono-regular.woff2") format("woff2"), url("../fonts/sfmono-regular.ttf") format("truetype"), url("../fonts/sfmono-regular.svg#SF Mono") format("svg");
+}
+
+@font-face {
+  font-display: auto;
+  font-family: "SF Mono";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/sfmono-light.eot");
+  src: url("../fonts/sfmono-light.eot?#iefix") format("embedded-opentype"), url("../fonts/sfmono-light.woff") format("woff"), url("../fonts/sfmono-light.woff2") format("woff2"), url("../fonts/sfmono-light.ttf") format("truetype"), url("../fonts/sfmono-light.svg#SF Mono") format("svg");
+}
+
+/* Variables */
+:root {
+  /* Colors */
+  --color-background: #060d21;
+  --color-paragraphs: rgba(255, 255, 255, .8);
+
+  /* Typography */
+  --font-family: "Alliance No. 1", -apple-system, blinkmacsystemfont, "Segoe UI", roboto, oxygen-sans, ubuntu, cantarell, "Helvetica Neue", sans-serif;
+  --font-size-default: 20px;
+  --font-size-tiny: 14px;
+  --font-size-small: 16px;
+  --font-size-medium: 17px;
+  --font-size-large: 18px;
+  --font-size-extra-large: 20px;
+  --font-size-huge: 22px;
+  --font-size-nav-toggle-label: 15px;
+  --body-line-height: 1.7;
+  --heading-line-height: 1.5;
+}
+
+body {
+  color: var(--color-paragraphs);
+  font-family: var(--font-family);
+  font-size: var(--font-size-medium);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  margin: 0;
+  text-rendering: geometricPrecision;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+div {
+  font-family: var(--font-family);
+}
+
+body,
+html,
+table,
+tbody,
+td {
+  background-color: var(--color-background);
+  color: var(--color-paragraphs);
+}
+
+tr,
+td,
+table,
+tbody,
+thead,
+p,
+h1,
+h2,
+h3,
+span,
+b {
+  border: 0 !important;
+  border-collapse: collapse !important;
+  color: var(--color-paragraphs);
+  font-family: "Alliance No. 1", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.table > caption + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > th,
+.table > thead:first-child > tr:first-child > th,
+.table > caption + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > td,
+.table > thead:first-child > tr:first-child > td,
+.tdtop {
+  border: 0 !important;
+  border-collapse: collapse !important;
+}
+
+#pisg_activedays,
+#pisg_activetimes,
+#pisg_legend {
+  max-width: 100%;
+  table-layout: fixed;
+}
+
+#pisg_activenicks td:first-child {
+  max-width: 20px;
+  width: 20px;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top {
+  background-color: transparent;
+  border: 0;
+  position: static;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top::before {
+  background: linear-gradient(-70deg, #97c8f6, #20ffa7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  content: 'Statsit';
+  display: block;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: left;
+  -webkit-text-fill-color: transparent;
+  visibility: visible;
+}
+
 #pagecontainer {
-	margin-top: 100px;
+  margin-top: 0;
+  overflow: hidden;
 }
 
 #pagecontainer > h2 {
   font-size: 25px;
-  letter-spacing: -.05px;
   font-weight: 400;
+  letter-spacing: -.05px;
 }
 
 #footer {
-	border-top: 2px solid #464646;
-	background-color: #212121;
-	color: #fff;
-	margin-top: 30px;
-	padding: 20px;
-	text-align: center;
+  background-color: #212121;
+  border-top: 2px solid #464646;
+  color: #fff;
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
 }
 
 #footer a {
-	color: #fff;
-	font-weight: bold;
-}
-
-body {
-	font-family: 'Muli', Ubuntu, Verdana, Arial, sans-serif;
-	font-size: 13px;
-	color: black;
+  color: #fff;
+  font-weight: 400;
 }
 
 .valign-bottom td {
-	vertical-align: bottom !important;
+  vertical-align: bottom !important;
 }
 
 .narrowbar {
-	padding: 8px 3px !important;
-	width: 30px !important;
-}
-
-.title {
-	font-family: 'Muli', Ubuntu, Arial, sans-serif;
-	font-size: 16px;
-	font-weight: bold;
+  padding: 8px 3px !important;
+  width: 30px !important;
 }
 
 .vert_bar {
-	display: block;
-	vertical-align: bottom;
-	margin: 0 auto !important;
+  display: block;
+  margin: 0 auto !important;
+  vertical-align: bottom;
 }
-.horz_bar {
-	display: inline-block;
-	vertical-align: middle;
-	margin: 0 auto !important;
-}
-.bar_blue { background-color: #556ee6; }
-.bar_green { background-color: #71be68; }
-.bar_red { background-color: #e66767; }
-.bar_yellow { background-color: #f5cd7a; }
 
-.asmall {
-	font-family: Ubuntu, Arial, sans-serif;
-	font-size: 10px;
-	color: black;
-	text-align: center;
+.horz_bar {
+  display: inline-block;
+  margin: 0 auto !important;
+  vertical-align: middle;
+}
+
+.bar_blue {
+  background-color: #556ee6;
+}
+
+.bar_green {
+  background-color: #71be68;
+}
+
+.bar_red {
+  background-color: #e66767;
+}
+
+.bar_yellow {
+  background-color: #f5cd7a;
 }

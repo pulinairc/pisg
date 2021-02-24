@@ -1,0 +1,31 @@
+{
+  "name": "pisg",
+  "version": "1.0.0",
+  "description": "This is a fork of pisg (pisg.sourceforge.net) that uses a minimal layout and theme.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "stylelint": "^13.11.0",
+    "stylelint-a11y": "^1.2.3",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-value-no-unknown-custom-properties": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pulinairc/pisg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pulinairc/pisg/issues"
+  },
+  "homepage": "https://github.com/pulinairc/pisg#readme"
+}

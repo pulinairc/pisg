@@ -1,0 +1,5 @@
+node_modules
+.DS_Store
+output/.DS_Store
+output/statsit/.DS_Store
+output/statsit/layout/style.css
