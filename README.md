@@ -2,6 +2,8 @@
 
 This is a fork of pisg (pisg.sourceforge.net) that uses a minimal layout and theme.
 
+![Screenshot](https://i.imgur.com/6AN7gMm.png "Screenshot")
+
 ## Install
 
 See the main pisg README for dependencies and installation instructions.
