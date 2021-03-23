@@ -285,7 +285,6 @@ b {
 #pisg_activenicks th,
 #pisg_activenicks td {
   font-size: var(--font-size-smaller) !important;
-  padding: 5px !important;
 }
 
 .navbar.navbar-inverse.navbar-fixed-top {
