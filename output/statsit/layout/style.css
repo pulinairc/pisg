@@ -282,9 +282,19 @@ b {
   margin-bottom: 15px !important;
 }
 
-#pisg_activenicks th,
 #pisg_activenicks td {
   font-size: var(--font-size-smaller) !important;
+  padding: 5px !important;
+}
+
+#pisg_activenicks td:last-child {
+  padding: 0 30px 0 0 !important;
+  display: flex !important;
+  max-width: 85% !important;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+  background: #060d21 !important;
 }
 
 .navbar.navbar-inverse.navbar-fixed-top {
